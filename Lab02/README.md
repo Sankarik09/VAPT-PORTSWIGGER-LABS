@@ -25,9 +25,8 @@ Authentication bypass, unauthorized admin access.
 Use parameterized queries / prepared statements. Avoid string concatenation in SQL.
 
 ## Evidence
-- Burp-evidence.png: Shows SQL payload in login request
-- Solved.png: Shows successful admin login
+- Sqli-loginbypass-evidence.png: Shows SQL payload in login request
+- Sqli-loginbypass.png: Shows successful admin login
 
-## Tools Used
-- Burp Suite
+## Tools Us- Burp Suite
 - PortSwigger Web Security Academy
