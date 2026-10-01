@@ -24,7 +24,7 @@ PortSwigger - Stored XSS into HTML context with nothing encoded
 ![Solved](StoredXSS-solved.png)
 
 ### 2. Alert Popup
-![Alert](StoredXSS-alert.png)
+![Alert](StoredXSS-burp.png)
 
 ## Impact
 Attacker can steal user cookies and hijack sessions.
