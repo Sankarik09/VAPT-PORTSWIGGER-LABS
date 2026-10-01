@@ -26,5 +26,4 @@ The application reflects user input from the search parameter directly into the 
 
 
 
-4. Paste this new code
-5. Commit changes
+
