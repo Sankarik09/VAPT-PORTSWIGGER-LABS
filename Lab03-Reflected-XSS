@@ -1,0 +1,34 @@
+# Lab 03 - Reflected XSS into HTML context with nothing encoded
+
+**Platform:** PortSwigger Web Security Academy
+**Vulnerability:** Cross-Site Scripting (XSS) - Reflected
+**Severity:** High
+
+### Description
+The application reflects user input from the search parameter directly into the HTML response without any encoding. This allows an attacker to inject malicious JavaScript.
+
+### Steps to Reproduce
+1.  Accessed the lab.
+2.  Navigated to the search functionality: `/?search=test`
+3.  Tested for XSS with payload: `<script>alert(1)</script>`
+4.  Injected the payload into the `search` parameter.
+5.  The payload was reflected and executed in the browser.
+6.  Lab marked as solved.
+
+### Payload Used
+```html
+<script>alert(document.domain)</script>Explanation:
+The search parameter is vulnerable and directly inserted into HTML.Using alert(document.domain) proves the ability to execute JS in the context of the domain.Impact
+Session Hijacking (Stealing cookies if HttpOnly is not set)Account TakeoverCredential Harvesting / PhishingWebsite DefacementMitigation
+Output Encoding: HTML-encode all user-controlled data before reflecting it.Content Security Policy (CSP): Implement a strong CSP to prevent inline script execution.HttpOnly Flag: Set HttpOnly flag on cookies.Evidence
+1. Browser - Alert Execution
+Part of this response isn't supported on this device yet. View the full response on your phone.
+2. Burp Suite - Malicious Request
+Part of this response isn't supported on this device yet. View the full response on your phone.
+3. Burp Suite - Response with Payload Reflected
+Part of this response isn't supported on this device yet. View the full response on your phone.
+Tools Used
+Burp Suite ProfessionalWeb BrowserStatus: Solved ✅javascript
+Just create file `README.md` in folder `Lab03-Reflected-XSS` and paste this.
+
+Upload your 3 screenshots with exact same names.
