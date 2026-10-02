@@ -19,3 +19,10 @@ IDOR in `/download-transcript/{id}.txt`
 
 ### Impact: Account Takeover via IDOR
 ### Fix: Implement proper access control check - Verify user owns the file before serving it.
+### Proof:
+
+#### Password Found:
+![Password](IDOR-Password.png)
+
+#### Lab Solved:
+![Solved](IDORSolved.png)
