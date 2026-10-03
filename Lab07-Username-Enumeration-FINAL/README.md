@@ -39,10 +39,10 @@ The application leaks information about valid usernames through different respon
 ### 5. Proof of Concept
 
 **Username Enumeration:**
-![Username Enum](Lab07-evidence.png)
+![Username Enum](Lab07evidence.png)
 
 **Password Brute-force:**
-![Password Brute](Lab07-evidence02.png)
+![Password Brute](Lab07evidence2.png)
 
 **Lab Solved:**
 ![Solved](Lab07-solved.png)
