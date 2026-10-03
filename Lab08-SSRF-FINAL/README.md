@@ -30,7 +30,7 @@ Response: `302 Found` - User deleted successfully.
 ![Delete](Lab08-delete-carlos.png)
 
 **3. Lab Solved**
-![Solved](Lab08-solved.png)
+![Solved](Lab08-Solved.png)
 
 ## Impact
 - Access to internal admin panel
