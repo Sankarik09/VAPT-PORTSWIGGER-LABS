@@ -24,7 +24,7 @@ Response: `302 Found` - User deleted successfully.
 ## Proof of Concept
 
 **1. Admin Panel Accessed via SSRF**
-![Admin Panel](Lab08-admin-panel.png)
+![Admin Panel](lab08-admin-panel.png)
 
 **2. User Deletion (302 Found)**
 ![Delete](Lab08-delete-carlos.png)
