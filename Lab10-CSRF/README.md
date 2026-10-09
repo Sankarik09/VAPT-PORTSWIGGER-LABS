@@ -28,4 +28,4 @@ Steps to Solve
 5.Lab solved
 
 Proof
-![Solved](Lab10-Solved.png)
+![Solved](Lab10-CSRF-Solved.png)
