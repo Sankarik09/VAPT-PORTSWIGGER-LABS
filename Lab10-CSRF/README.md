@@ -9,6 +9,9 @@ The application validates CSRF token only on POST method. When changing email vi
 Endpoint: `/my-account/change-email`
 
 ## Exploit Code (exploit.html)
+# Lab 10: CSRF where token validation depends on request method
+
+## Exploit Code
 ```html
 <html>
   <body>
