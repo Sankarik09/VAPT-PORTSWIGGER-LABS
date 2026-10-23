@@ -25,12 +25,18 @@ Replace your session cookie with the forged admin token and request:
 GET /admin HTTP/2
 You will get 200 OK with user list: wiener, carlos.
 ![Admin Acess Proof](Lab11-Jwtproof.png)
+
+
 5. Delete Carlos
 GET /admin/delete?username=carlos HTTP/2
 Response: 302 Found - User deleted.
 ![Lab Solved](Lab11-JWT-Solved.png)
+
+
 Result
 Lab Solved - Successfully bypassed JWT authentication and deleted user carlos.
+
+
 Tools Used
 Burp Suite
 jwt.io
