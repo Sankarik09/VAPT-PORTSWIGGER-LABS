@@ -16,7 +16,6 @@ Copy the JWT to https://jwt.io and brute-force the secret using dictionary attac
 
 **3. Forge Admin JWT**
 Modify the payload to:
-```json
 
 {
   "sub": "administrator"
