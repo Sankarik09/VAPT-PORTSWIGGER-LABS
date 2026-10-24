@@ -18,10 +18,10 @@ Lab has "Check stock" feature that parses XML input. Goal is to inject XML exter
 
 **Proof**
 1. File Retrieval Proof:
-![XXE Proof](./Lab12-Exploiting-XXE-Proof.png)
+![XXE Proof](Lab12-Exploiting-XXE-Proof.png)
 
 2. Lab Solved Proof:
-![Solved Proof](./Lab12-Exploiting-XXE-Solved.png)
+![Solved Proof](Lab12-Exploiting-XXE-Solved.png)
 
 **Impact**
 Attacker can read arbitrary files on the server.
