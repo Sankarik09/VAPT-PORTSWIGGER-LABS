@@ -1,12 +1,3 @@
-FOLDER NAME:
-Lab14-Excessive-trust-in-client-side-controls
-
-FILES INSIDE:
-1. README.md
-2. Lab14-Excessive-trust-in-client-side-controls-Solved.png
-
-README.md CONTENT:
-
 # Lab14: Excessive trust in client-side controls
 
 **Lab Link:** https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-flawed-business-logic
@@ -36,4 +27,4 @@ price=0.01
 Validate price from server-side database, never trust client data.
 
 ## Proof
-![Solved](Lab14-Excessive-Client-Side-Controls.png)
+![Solved](Lab14-Excessive-Client-Side-Control.png)
