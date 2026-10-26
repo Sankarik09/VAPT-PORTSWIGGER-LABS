@@ -26,10 +26,10 @@ The application uses a serialized PHP object in the session cookie. The `admin` 
 ## Proof of Concept
 
 ### Object-Proof - Admin Access & Deletion
-![Proof](./Lab13-Insecure-Deserialization-Object-Proof.png)
+![Proof](./Lab13-Insecure Deserialization-Object-Proof.png)
 
 ### Object-Solved - Lab Solved
-![Solved](./Lab13-Insecure-Deserialization-Object-Solved.png)
+![Solved](./Lab13-Insecure Deserialization-Object-Solved.png)
 
 ## Impact
 Privilege Escalation to Admin, Account Deletion
